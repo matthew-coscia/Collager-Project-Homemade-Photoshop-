@@ -1,0 +1,7 @@
+new-project 750 750
+add-image-to-layer initial-layer res/ppmExample.ppm 0 0
+add-layer jpg
+add-image-to-layer jpg res/PNGExample.png 0 0 
+set-filter jpg blend-multiply
+save-image res/commandtest.ppm
+quit
